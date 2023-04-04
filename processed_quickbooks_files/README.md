@@ -1,0 +1,1 @@
+# This folder is for QuickBooks export files that have already been processed
