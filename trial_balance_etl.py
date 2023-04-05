@@ -10,7 +10,7 @@ def new_col_from_split(df, split_col, delim, index = -1):
 
 def create_entity_dict(df, entity_column, suffix_column, data_folder='./quickbooks_data/'):
     file_list = os.listdir(data_folder)
-    return {x + '.xlsx': '.' + y for x, y in zip(df[entity_column], df[suffix_column]) if x + '.xlsx' in file_list}
+    return {x + '.xlsx': f'.{y}' for x, y in zip(df[entity_column], df[suffix_column]) if x + '.xlsx' in file_list}
 
 
 def format_tbs(entities, data_folder='./quickbooks_data/'):
