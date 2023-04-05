@@ -8,7 +8,8 @@ def new_col_from_split(df, split_col, delim, index = -1):
     return [x[index] for x in df[split_col].astype(str).str.split(delim)]
 
 
-def create_entity_dict(df, entity_column, suffix_column, file_list=os.listdir('./quickbooks_data/')):
+def create_entity_dict(df, entity_column, suffix_column, data_folder='./quickbooks_data/'):
+    file_list = os.listdir(data_folder)
     return {x + '.xlsx': '.' + y for x, y in zip(df[entity_column], df[suffix_column]) if x + '.xlsx' in file_list}
 
 
