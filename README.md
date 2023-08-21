@@ -5,7 +5,7 @@ Example notebook for preparing QuickBooks trial balance data for import into CCH
 #### *** while this project was inspired by a real-world scenario, all data in this project is purely fictitious ***
 ---
 ## Overview
-Formatting trial balance data from quickbooks exports to import into CCH Engagement can be tedious work, especially for clients with multiple subsidiaries. While it is manageable  to handle this work in excel for companies with 3 or 4 subsidiaries, what if there are dozens? And what if each entity has hundreds of accounts?
+Formatting trial balance data from quickbooks exports to import into CCH Engagement can be tedious work, especially for clients with multiple related entities. While it is manageable  to handle this work in excel for companies with 3 or 4 subsidiaries, what if there are dozens? And what if each entity has hundreds of accounts?
 
 This project was inspired by a real world scenario working in an audit and assurance practice where I was asked to format the trial balances for a company with almost 100 subsidiaries. I decided it was time to put together a scalable ETL workflow for trial balance data using python to automate process from start to finish. 
 
