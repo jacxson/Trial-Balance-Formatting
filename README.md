@@ -13,9 +13,9 @@ The notebooks in this project assume some basic knowledge of python inlcuding da
 
 ## Methodology
 The reformatting of QuickBooks outputs requires three primary steps: 
-**1) extract account numbers and descriptive names from strings of nested accounts and subaccounts** 
-**2) append 3 character account suffixes to the account numbers to differentiate identical account numbners belonging to different subsidiaries for the consolidated trial balance** 
-**3) combine credit and debit columns into a single net balance column**
+  1. extract account numbers and descriptive names from strings of nested accounts and subaccounts
+  2. append 3 character account suffixes to the account numbers to differentiate identical account numbners belonging to different subsidiaries for the consolidated trial balance
+  3. combine credit and debit columns into a single net balance column
 
 If you're new to python but curious to learn more about pythonic approaches to accounting workflows, feel free to reach out on [LinkedIn](linkedin.com/in/jacxson). I'd love to chat!
 
