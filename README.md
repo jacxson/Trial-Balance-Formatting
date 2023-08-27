@@ -11,5 +11,11 @@ This repository was inspired by a real world scenario working in an audit and as
 
 The notebooks in this project assume some basic knowledge of python inlcuding data types, control flow, functions, and the pandas library. If you would like to jump straight into the code, check out the [example notebook](example_notebook_tb_formatting.ipynb) or the corresponding [etl script](trial_balance_etl.py) (the two are essentially identical). If you would like a more step by step guide that lays out the thought processes behind each step, check out the [tutorial notebook](tutorial_notebook_tb_formatting.ipynb). 
 
+## Methodology
+The reformatting of QuickBooks outputs requires three primary steps: 
+**1) extract account numbers and descriptive names from strings of nested accounts and subaccounts** 
+**2) append 3 character account suffixes to the account numbers to differentiate identical account numbners belonging to different subsidiaries for the consolidated trial balance** 
+**3) combine credit and debit columns into a single net balance column**
+
 If you're new to python but curious to learn more about pythonic approaches to accounting workflows, feel free to reach out on [LinkedIn](linkedin.com/in/jacxson). I'd love to chat!
 
